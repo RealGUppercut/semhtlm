@@ -1,0 +1,17 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+/* . is class selector */
+/* * is all selector */
+/* # is ID selector */
+
+h2 {
+    color: crimson;
+}
+
+/* changing fonts (with backups if font is missing) -- font-family:  */
+/* google fonts? */
