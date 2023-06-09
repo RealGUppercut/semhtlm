@@ -1,5 +1,10 @@
-* {
+a {
     font-family: sans-serif;
+    text-decoration: none;
+    color: chocolate;
+    font-size : 20px;
+    
+    
 }
 
 .container {
@@ -33,23 +38,16 @@
     grid-row-end: -3;
  }
 
- .button {
+ .navlink {
     background-color: rgb(247,247,247);
         border-style: double;
         border-width: 5px;
         color: chocolate;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
+        padding: 5px 10px;
+        text-align: center;;
+        display: inline-block;  
  }
 
+.mainnav {
+    cursor: url(nat622.cur);
 }
-
-}
-/* . is class selector */
-/* * is all selector */
-/* # is ID selector */
-/* changing fonts (with backups if font is missing) -- font-family:  */
-/* google fonts? */
-/* resizes elements to stick to specific border sizing -- box-sizing: borderbox */
