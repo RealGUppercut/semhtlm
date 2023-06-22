@@ -18,6 +18,7 @@ a {
    }
 
 .mainlogo {
+    object-fit: contain;
     height: 180px;
     width : 400px;
     grid-column-start: 0;
@@ -31,11 +32,7 @@ a {
     font-size: 20px;
     text-align: left;
     padding: 5px;
-    width: 3fr;
-    grid-column-start: -2;
-    grid-column-end: span <-1>;
-    grid-row-start: 1;
-    grid-row-end: -3;
+    display: inline;
  }
 
  .navlink {
@@ -45,6 +42,8 @@ a {
         color: chocolate;
         padding: 5px 10px;
         text-align: center;;
+        float: inline-end;
+        position: relative;
         display: inline-block;  
  }
 
